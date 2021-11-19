@@ -13,6 +13,7 @@
 		EE7B0DBB27467556009F31C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7B0DB927467556009F31C1 /* Main.storyboard */; };
 		EE7B0DBD27467558009F31C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7B0DBC27467558009F31C1 /* Assets.xcassets */; };
 		EE7B0DC027467558009F31C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7B0DBE27467558009F31C1 /* LaunchScreen.storyboard */; };
+		EE7B0DCA27467D1C009F31C1 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B0DC927467D1C009F31C1 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EE7B0DBC27467558009F31C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE7B0DBF27467558009F31C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE7B0DC127467558009F31C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7B0DC927467D1C009F31C1 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EE7B0DB327467556009F31C1 /* AppDelegate.swift */,
 				EE7B0DB527467556009F31C1 /* SceneDelegate.swift */,
 				EE7B0DB727467556009F31C1 /* ViewController.swift */,
+				EE7B0DC927467D1C009F31C1 /* Cell.swift */,
 				EE7B0DB927467556009F31C1 /* Main.storyboard */,
 				EE7B0DBC27467558009F31C1 /* Assets.xcassets */,
 				EE7B0DBE27467558009F31C1 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7B0DB827467556009F31C1 /* ViewController.swift in Sources */,
+				EE7B0DCA27467D1C009F31C1 /* Cell.swift in Sources */,
 				EE7B0DB427467556009F31C1 /* AppDelegate.swift in Sources */,
 				EE7B0DB627467556009F31C1 /* SceneDelegate.swift in Sources */,
 			);
