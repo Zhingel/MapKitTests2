@@ -7,6 +7,7 @@
 
 import UIKit
 import MapKit
+import SwiftUI
 class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelegate, UITextFieldDelegate {
     var search:String=""
     let tableView: UITableView = {
@@ -21,8 +22,13 @@ class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelega
        }()
     var searchSource: [String]?
     let searchBar = UISearchBar()
+    
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+      
         view.addSubview(tableView)
         view.addSubview(searchBar)
         searchBar.searchBarStyle = .prominent
@@ -40,6 +46,8 @@ class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelega
     }
     @objc func goToSwiftUI() {
         print("goToSwiftUI")
+        let vc = SecondViewController()
+        present(vc, animated: true)
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return searchSource?.count ?? 0
